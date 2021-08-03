@@ -1,3 +1,7 @@
 /*STYLES FOR LEAFLET*/
 #mapid1 { height: 500px; }
 #mapid2 { height: 500px; }
+
+path.leaflet-interactive {
+  stroke-width=10;
+}
