@@ -32,3 +32,4 @@ output maps/*.rds
 .Renviron
 wardenProject2021.Rproj
 *.docx
+/docs/leaflet_testing/HTML5Application/nbproject/private/

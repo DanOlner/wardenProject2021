@@ -122,4 +122,17 @@ tm_shape(centrePoint) +
   
 # Instruction: Export the maps by hand into /output pairs alternat --------
 
-
+#Can we not export using code? Nope.
+# x <- tm_shape(centrePoint) +
+#     tm_borders(alpha = 0.5) +
+#     tm_shape(
+#       pair1_1 %>% select(type),
+#       name = 'borders'
+#     ) +
+#     tm_lines(lwd = 3) +
+#     tm_facets('type', sync = T)
+#   
+#   tmap_save(x, "example_map.html")
+#   
+  
+  
