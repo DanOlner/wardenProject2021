@@ -31,3 +31,4 @@ output maps/*.rds
 # R Environment Variables
 .Renviron
 wardenProject2021.Rproj
+*.docx
